@@ -62,7 +62,6 @@ for line in x:
     sline = str(line)
     ret = re.search(pattern, sline)
     if ret:
-        print(sline)
         if(i==5):
             hdu_n = int(re.sub("\D", "", sline))
             break
